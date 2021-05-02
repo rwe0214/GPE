@@ -22,10 +22,6 @@ int main(){
                 a = nums[j];
                 lo = j+1;
                 hi = i-1;
-                //while(lo == i || lo ==j)
-                //    lo++;
-                //while(hi == i || hi ==j)
-                //    hi--;
                 while(lo < hi && !solved){
                     int test = a+nums[lo]+nums[hi];
                     if(test == d){
