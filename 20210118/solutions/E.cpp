@@ -18,14 +18,14 @@ int main(){
         bool solved = false;
         for(int i=n-1; i>=3 && !solved; i--){
             d = nums[i];
-            for(int j=0; j<n && !solved; j++){
+            for(int j=0; j<i && !solved; j++){
                 a = nums[j];
-                lo = 0;
-                hi = n-1;
-                while(lo == i || lo ==j)
-                    lo++;
-                while(hi == i || hi ==j)
-                    hi--;
+                lo = j+1;
+                hi = i-1;
+                //while(lo == i || lo ==j)
+                //    lo++;
+                //while(hi == i || hi ==j)
+                //    hi--;
                 while(lo < hi && !solved){
                     int test = a+nums[lo]+nums[hi];
                     if(test == d){
