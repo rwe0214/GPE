@@ -4,7 +4,7 @@ OUTDIR = output
 TESTDIR = testdata
 TESTOUT = testoutput
 CC = g++
-CFLAGS = 
+CFLAGS = --std=c++11 
 
 SRCS = $(wildcard $(SRCDIR)/*.cpp)
 EXECS = $(patsubst $(SRCDIR)%.cpp, %, $(SRCS))
