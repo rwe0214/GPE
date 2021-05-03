@@ -7,7 +7,12 @@
 * E. UVa: 10125 - Sumsets
 * F. UVa: 147 - Dollars
 
+## Testing
+
 ```shell
+$ ls
+Makefile   Readme.md  solutions  testdata   testoutput
+
 $ make
 g++ --std=c++11  -o bin/A solutions/A.cpp
 g++ --std=c++11  -o bin/B solutions/B.cpp
