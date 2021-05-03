@@ -34,3 +34,6 @@ clean:
 
 test: $(ALL_TEST)
 	@echo "Success, all tests passed."
+
+format:
+	clang-format -i $(SRCS)
