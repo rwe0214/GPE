@@ -1,4 +1,4 @@
-# GPE@20210322
+# GPE@20210512
 
 * A. UVa: 256 - Quirksome Squares
 * B. UVa: 10533 - Digit Primes
